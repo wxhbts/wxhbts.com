@@ -1,0 +1,20 @@
+<script src="http://cdn.bootcss.com/purl/2.3.1/purl.min.js"></script>
+<script>
+// 获取当前页面的 URL
+var currentUrl = window.location.href;
+
+// 使用正则表达式匹配 URL 中的数字部分
+var regex = /\/(\d+)/;
+var matches = currentUrl.match(regex);
+
+if (matches && matches.length > 1) {
+  // 获取匹配到的数字部分
+  var number = matches[1];
+
+  // 构建目标 URL
+  var targetUrl = "https://apt.wxhbts.pro/pc/" + number;
+
+  // 执行重定向
+  window.location.href = targetUrl;
+}
+</script>

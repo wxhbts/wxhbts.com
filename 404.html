@@ -9,16 +9,13 @@
 	</body>
 <script src="http://cdn.bootcss.com/purl/2.3.1/purl.min.js"></script>
 <script>
+// 获取当前 URL
 var currentUrl = window.location.href;
 
-// 检查是否是 pc 类型的 URL
-if (currentUrl.includes("/pc/")) {
-  window.location.href = currentUrl.replace("apt.wxhbts.com", "apt.wxhbts.pro");
-}
+// 替换域名部分
+var newUrl = currentUrl.replace("apt.wxhbts.com", "apt.wxhbts.pro");
 
-// 检查是否是 view 类型的 URL
-if (currentUrl.includes("/view/")) {
-  window.location.href = currentUrl.replace("apt.wxhbts.com", "apt.wxhbts.pro");
-}
+// 执行 301 重定向
+window.location.replace(newUrl);
 </script>
 </html>

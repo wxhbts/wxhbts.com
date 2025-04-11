@@ -9,12 +9,12 @@
 			"useBottomMargin": true,
 			"class": "DepictionSubheaderView"
 		}, {
-			"markdown": "抱歉！该站点已停止运行\n\n请先删除apt.wxhbts.com\n\n然后添加apt.wxhbts.pro\n\n",
+			"markdown": "抱歉！该站点已停止运行\n\n请先删除apt.wxhbts.pro\n\n然后添加apt.wxhbts.com\n\n",
 			"class": "DepictionMarkdownView"
 		}, {
 			"text": "点击添加新源地址",
 			"openExternal": true,
-			"action": "https://apt.wxhbts.pro",
+			"action": "https://apt.wxhbts.com",
 			"class": "DepictionButtonView"
 		}],
 		"class": "DepictionStackView"
